@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "my-weather-app-123",
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
